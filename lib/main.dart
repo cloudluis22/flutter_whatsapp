@@ -53,7 +53,10 @@ class MyWhatsapp extends StatelessWidget {
                         radius: 28,
                         backgroundImage: AssetImage('assets/tia.jpeg'),
                       ),
-                      title: Text('Tia'),
+                      title: Text(
+                        'Tia',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                       subtitle: Row(
                         children: [
                           Icon(
@@ -68,7 +71,7 @@ class MyWhatsapp extends StatelessWidget {
                         ],
                       ),
                       trailing: Column(
-                        children: [Text('7:56')],
+                        children: [Text('21:53')],
                       ),
                       horizontalTitleGap: 13,
                     ),
@@ -77,13 +80,245 @@ class MyWhatsapp extends StatelessWidget {
                         radius: 28,
                         backgroundImage: AssetImage('assets/amlol.jpeg'),
                       ),
-                      title: Text('AMLOL XD'),
+                      title: Text(
+                        'AMLOL XD',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                       subtitle: Text('Ya te deposité lo del mes mi amor.'),
                       trailing: Column(
-                        children: [Text('7:56')],
+                        children: [Text('18:49')],
                       ),
                       horizontalTitleGap: 13,
-                    )
+                    ),
+                    ListTile(
+                      leading: CircleAvatar(
+                        radius: 28,
+                        backgroundColor: Colors.lightGreen,
+                        child: Padding(
+                          padding: EdgeInsets.all(2),
+                          child: ClipOval(
+                            child: Image(
+                                image: AssetImage('assets/buffstavo.jpg')),
+                          ),
+                        ),
+                      ),
+                      title: Text(
+                        'Buffstavo Fring',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      subtitle: Row(
+                        children: [
+                          Icon(
+                            Icons.image,
+                            color: Colors.lightGreen,
+                            size: 20,
+                          ),
+                          SizedBox(
+                            width: 3,
+                          ),
+                          Text('Mirame José Luis')
+                        ],
+                      ),
+                      trailing: Column(
+                        children: [
+                          Text(
+                            '15:00',
+                            style: TextStyle(
+                                color: Colors.lightGreen,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.lightGreen,
+                            radius: 8,
+                            child: Text(
+                              "1",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                          )
+                        ],
+                      ),
+                      horizontalTitleGap: 13,
+                    ),
+                    ListTile(
+                      leading: CircleAvatar(
+                        radius: 28,
+                        backgroundImage: AssetImage('assets/loras.jpg'),
+                      ),
+                      title: Text(
+                        'Loras Tyrell',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      subtitle: Row(
+                        children: [Text('A que horas te veo guapo.')],
+                      ),
+                      trailing: Column(
+                        children: [
+                          Text(
+                            '12:32',
+                            style: TextStyle(
+                                color: Colors.lightGreen,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.lightGreen,
+                            radius: 8,
+                            child: Text(
+                              "3",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                          )
+                        ],
+                      ),
+                      horizontalTitleGap: 13,
+                    ),
+                    ListTile(
+                      leading: CircleAvatar(
+                        radius: 28,
+                        backgroundImage: AssetImage('assets/walter.jpg'),
+                      ),
+                      title: Text(
+                        'Walter White',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      subtitle: Row(
+                        children: [Text('Vamos a cocinar we.')],
+                      ),
+                      trailing: Column(
+                        children: [
+                          Text(
+                            '10:07',
+                          ),
+                        ],
+                      ),
+                      horizontalTitleGap: 13,
+                    ),
+                    ListTile(
+                      leading: CircleAvatar(
+                        radius: 28,
+                        backgroundImage: AssetImage('assets/futaba.jpg'),
+                      ),
+                      title: Text(
+                        'Futaba Sakura',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      subtitle: Row(
+                        children: [Text('Salgamos de nuevo J.L <33.')],
+                      ),
+                      trailing: Column(
+                        children: [
+                          Text(
+                            '8:25',
+                          ),
+                        ],
+                      ),
+                      horizontalTitleGap: 13,
+                    ),
+                    ListTile(
+                      leading: CircleAvatar(
+                        radius: 28,
+                        backgroundImage: AssetImage('assets/emilia.jpg'),
+                      ),
+                      title: Text(
+                        'Emilia Clarke',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      subtitle: Row(
+                        children: [Text('Jalate por unos tacos bebe.')],
+                      ),
+                      trailing: Column(
+                        children: [
+                          Text(
+                            '8:11',
+                          ),
+                        ],
+                      ),
+                      horizontalTitleGap: 13,
+                    ),
+                    ListTile(
+                      leading: CircleAvatar(
+                        radius: 28,
+                        backgroundColor: Colors.lightGreen,
+                        child: Padding(
+                          padding: EdgeInsets.all(2.5),
+                          child: ClipOval(
+                            child:
+                                Image(image: AssetImage('assets/tatsuro.jpg')),
+                          ),
+                        ),
+                      ),
+                      title: Text(
+                        'Tatsuro Yamashita',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      subtitle: Row(
+                        children: [Text('Te voy a meter copyright mamón.')],
+                      ),
+                      trailing: Column(
+                        children: [
+                          Text(
+                            '6:05',
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                        ],
+                      ),
+                      horizontalTitleGap: 13,
+                    ),
+                    ListTile(
+                      leading: CircleAvatar(
+                        radius: 28,
+                        backgroundImage: AssetImage('assets/paul.jpg'),
+                      ),
+                      title: Text(
+                        'Paul McCartney',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                      subtitle: Row(
+                        children: [
+                          Icon(
+                            Icons.gif_box,
+                            color: Colors.lightGreen,
+                            size: 20,
+                          ),
+                          SizedBox(
+                            width: 3,
+                          ),
+                          Text('Sí, pero el PRI robó más.')
+                        ],
+                      ),
+                      trailing: Column(
+                        children: [
+                          Text(
+                            '3:56',
+                            style: TextStyle(
+                                color: Colors.lightGreen,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.lightGreen,
+                            radius: 8,
+                            child: Text(
+                              "1",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                          )
+                        ],
+                      ),
+                      horizontalTitleGap: 13,
+                    ),
                   ],
                 ),
               ),

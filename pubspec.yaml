@@ -22,4 +22,11 @@ flutter:
   assets:
     - assets/amlol.jpeg
     - assets/tia.jpeg
+    - assets/buffstavo.jpg
+    - assets/loras.jpg
+    - assets/walter.jpg
+    - assets/futaba.jpg
+    - assets/emilia.jpg
+    - assets/paul.jpg
+    - assets/tatsuro.jpg
 
