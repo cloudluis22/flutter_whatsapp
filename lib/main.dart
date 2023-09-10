@@ -50,7 +50,31 @@ class MyWhatsapp extends StatelessWidget {
                   children: const [
                     ListTile(
                       leading: CircleAvatar(
-                        radius: 45,
+                        radius: 28,
+                        backgroundImage: AssetImage('assets/tia.jpeg'),
+                      ),
+                      title: Text('Tia'),
+                      subtitle: Row(
+                        children: [
+                          Icon(
+                            Icons.done_all,
+                            color: Colors.blue,
+                            size: 20,
+                          ),
+                          SizedBox(
+                            width: 3,
+                          ),
+                          Text('Listo tia ya hice las compras :3')
+                        ],
+                      ),
+                      trailing: Column(
+                        children: [Text('7:56')],
+                      ),
+                      horizontalTitleGap: 13,
+                    ),
+                    ListTile(
+                      leading: CircleAvatar(
+                        radius: 28,
                         backgroundImage: AssetImage('assets/amlol.jpeg'),
                       ),
                       title: Text('AMLOL XD'),
@@ -58,7 +82,7 @@ class MyWhatsapp extends StatelessWidget {
                       trailing: Column(
                         children: [Text('7:56')],
                       ),
-                      horizontalTitleGap: 0,
+                      horizontalTitleGap: 13,
                     )
                   ],
                 ),
